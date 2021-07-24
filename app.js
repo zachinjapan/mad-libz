@@ -1,5 +1,3 @@
-console.log("test");
-
 // word variables
 // let noun1, noun2, noun3, noun4, noun5;
 // let verb1, verb2, verb3, verb5, verb6;
@@ -8,7 +6,8 @@ console.log("test");
 // let color1, color2, color3, color4, color5;
 
 
-
+// script 1
+document.getElementById("script-1").addEventListener("click", script1);
 
 function script1() {
     // necessary words
@@ -25,12 +24,33 @@ function script1() {
     var verb3 = prompt("type a verb");
     var adj4 = prompt("type an adjective");
 
-
+    // script
+    // adds border class
+    document.querySelector("h2").classList.add("border");
+    // writes html
     document.querySelector("h2").innerHTML = "Today I went to the zoo.I saw a(n) " +
         adj1 + " " + noun1 + " jumping up and down in its tree. <br> <br>" + "He " + verb1 + "ed" + " " + adver1 +
         " through the large tunnel that led to it's " + adj2 + " " + noun2 + ".  <br> <br>" + "I got some peanuts and passed them through the cage to a gigantic gray " + noun3 +
         " towering above my head. Feeding that animal made me hungry. <br> <br> I went to get a " + adj3 + " scoop of ice cream. It filled my stomach. <br> <br> Afterwards" +
         " I had to " + verb2 + " " + adver2 + " to catch our bus. When I got home I " + verb3 + "ed my mom for a " + adj4 + " day at the zoo";
-}
+};
 
-script1();
+// script 2
+document.getElementById("script-2").addEventListener("click", script2);
+
+function script2() {
+    var noun1 = prompt("type a noun");
+    var noun2 = prompt("type a noun");
+    var noun3 = prompt("type a noun");
+    var place1 = prompt("type a place");
+    var adj1 = prompt("type a adjective");
+    var noun4 = prompt("type a noun");
+
+
+
+
+    document.querySelector("h2").classList.add("border");
+    // writes html
+    document.querySelector("h2").innerHTML = "Be kind to your " + noun1 + "-footed " + noun2 + ".  <br> For a " + noun2 + " may be somebody's " + noun3 +
+        ". <br> Be kind to your " + noun2 + " in " + place1 + ". Where the weather is always " + adj1 + ".  <br> You may think that this is the " + noun4 + "Well it is."
+};

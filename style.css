@@ -1,22 +1,59 @@
 body {
     background-color: black;
     color: white;
-    font-family: sans-serif;
+    font-family: 'Shadows Into Light', cursive;
 }
 
 h1 {
+    font-size: 2rem;
     text-align: center;
     text-decoration: underline;
+    padding: 1%;
 }
+
+h3 {
+    font-size: 1rem;
+    text-align: center;
+}
+
+.button-row {
+    height: fit-content;
+    width: 100%;
+    margin-bottom: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+button {
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    background-color: gray;
+    color: white;
+}
+
+button:hover {
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    background-color: green;
+    color: white;
+}
+
 
 .text-div {
     margin: auto;
-    width: 50%;
+    width: 80%;
+    height: fit-content;
+}
+
+.border {
     border: 3px solid green;
     padding: 10px;
 }
 
 h2 {
-    font-size: large;
+    font-size: 1.5rem;
 
 }
