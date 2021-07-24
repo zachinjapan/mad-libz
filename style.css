@@ -1,7 +1,7 @@
 body {
     background-color: black;
     color: white;
-    font-family: 'Shadows Into Light', cursive;
+    font-family: 'verdana', cursive;
 }
 
 h1 {
@@ -9,11 +9,13 @@ h1 {
     text-align: center;
     text-decoration: underline;
     padding: 1%;
+    font-family: 'Shadows Into Light', cursive;
 }
 
 h3 {
     font-size: 1rem;
     text-align: center;
+    font-family: 'Shadows Into Light', cursive;
 }
 
 .button-row {

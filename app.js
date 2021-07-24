@@ -43,7 +43,7 @@ function script2() {
     var noun2 = prompt("type a noun");
     var noun3 = prompt("type a noun");
     var place1 = prompt("type a place");
-    var adj1 = prompt("type a adjective");
+    var adj1 = prompt("type an adjective");
     var noun4 = prompt("type a noun");
 
 
