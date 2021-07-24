@@ -33,4 +33,4 @@ function script1() {
         " I had to " + verb2 + " " + adver2 + " to catch our bus. When I got home I " + verb3 + "ed my mom for a " + adj4 + " day at the zoo";
 }
 
-"#"
+script1();
