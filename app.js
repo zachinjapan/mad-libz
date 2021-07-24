@@ -52,5 +52,5 @@ function script2() {
     document.querySelector("h2").classList.add("border");
     // writes html
     document.querySelector("h2").innerHTML = "Be kind to your " + noun1 + "-footed " + noun2 + ".  <br> For a " + noun2 + " may be somebody's " + noun3 +
-        ". <br> Be kind to your " + noun2 + " in " + place1 + ". Where the weather is always " + adj1 + ".  <br> You may think that this is the " + noun4 + "Well it is."
+        ". <br> Be kind to your " + noun2 + " in " + place1 + ". Where the weather is always " + adj1 + ".  <br> You may think that this is the " + noun4 + "... Well it is."
 };
