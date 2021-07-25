@@ -54,3 +54,25 @@ function script2() {
     document.querySelector("h2").innerHTML = "Be kind to your " + noun1 + "-footed " + noun2 + ".  <br> For a " + noun2 + " may be somebody's " + noun3 +
         ". <br> Be kind to your " + noun2 + " in " + place1 + ". Where the weather is always " + adj1 + ".  <br> You may think that this is the " + noun4 + "... Well it is."
 };
+
+// script 3
+
+document.getElementById("script-3").addEventListener("click", script3);
+
+function script3() {
+    var noun1 = prompt("type a noun");
+    var noun2 = prompt("type a person's name");
+    var noun3 = prompt("type a noun");
+    var place1 = prompt("type a place");
+    var adj1 = prompt("type an adjective");
+    var noun4 = prompt("type a noun");
+    var color1 = prompt("type a color");
+    verb1 = prompt("type a verb")
+
+    document.querySelector("h2").classList.add("border");
+
+    document.querySelector("h2").innerHTML = "hello. I am a " + noun1 + " . <br> and my best friend is a " + noun2 + ". " +
+        "I want to be " + adj1 + " like " + noun2 + "  .  <br> We often " + verb1 + " together at " + place1 + "!! " + "Do you know where " + place1 + " is?  Well, it's right next to the " + color1 +
+        " " + noun3 + ".  I actually grew up right by  " + noun3 + ". <br> I have to go but lets " + verb1 + " sometime.";
+
+};
