@@ -98,7 +98,7 @@ function script4() {
     var place1 = prompt("場所の名前を書いてください");
     var verb1 = prompt("動詞を書いてください");
     var noun5 = prompt("名詞を書いてください");
-    color1 = prompt("色の名前を書いてください");
+    var color1 = prompt("色の名前を書いてください");
 
 
     document.querySelector("div.column-4").style.display = "none";
