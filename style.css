@@ -19,8 +19,6 @@ h3 {
 }
 
 .button-row {
-    height: 200px;
-    width: 100vw;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -33,6 +31,7 @@ h3 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 
 button {
