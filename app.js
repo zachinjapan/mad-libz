@@ -107,6 +107,6 @@ function script4() {
 
     document.querySelector("h2").innerHTML = "こんにちは。" + noun1 + "と申します。<br><br>人間じゃなくて" + noun2 + "なんです。" +
         "先週間" + noun4 + "に引っ越しました。<br><br>" + "住んでいるアパートは" + color1 + noun5 + "と言います。<br><br>" +
-        "友達に『" + noun2 + "なのに、ちょっと" + adj1 + "。』とよく言われています。<br> <br>" + "好物は" + noun3 + "です" +
+        "友達に『" + noun2 + "なのに、ちょっと" + adj1 + "。』とよく言われています。<br> <br>" + "好物は" + noun3 + "です。<br><br>" +
         "一緒に" + place1 + "で" + verb1 + "するのが好きでございます。<br><br><br>よろしくお願いいたします";
 }
