@@ -82,3 +82,31 @@ function script3() {
         " " + noun3 + ".  I actually grew up right by  " + noun3 + ". <br><br> I have to go but lets " + verb1 + " sometime.";
 
 };
+
+
+// script 4
+
+
+document.getElementById("script-4").addEventListener("click", script4);
+
+function script4() {
+    var noun1 = prompt("ランダム名前を書いてください");
+    var noun4 = prompt("地名を書いてください");
+    var noun2 = prompt("名詞を書いてください");
+    var adj1 = prompt("形容詞を書いてください");
+    var noun3 = prompt("名詞を書いてください");
+    var place1 = prompt("場所の名前を書いてください");
+    var verb1 = prompt("動詞を書いてください");
+    var noun5 = prompt("名詞を書いてください");
+    color1 = prompt("色の名前を書いてください");
+
+
+    document.querySelector("div.column-4").style.display = "none";
+
+    document.querySelector("h2").classList.add("border");
+
+    document.querySelector("h2").innerHTML = "こんにちは。" + noun1 + "と申します。<br><br>人間じゃなくて" + noun2 + "なんです。" +
+        "先週間" + noun4 + "に引っ越しました。<br><br>" + "住んでいるアパートは" + color1 + noun5 + "と言います。<br><br>" +
+        "友達に『" + noun2 + "なのに、ちょっと" + adj1 + "。』とよく言われています。<br> <br>" + "好物は" + noun3 + "です" +
+        "一緒に" + place1 + "で" + verb1 + "するのが好きでございます。<br><br><br>よろしくお願いいたします";
+}
