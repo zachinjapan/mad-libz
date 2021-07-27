@@ -19,12 +19,20 @@ h3 {
 }
 
 .button-row {
-    height: fit-content;
+    height: 200px;
     width: 100%;
     margin-bottom: 5%;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    background-color: black;
+    align-items: center;
+}
+
+.button-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 button {
@@ -59,4 +67,8 @@ button:hover {
 h2 {
     font-size: 1.5rem;
 
+}
+
+.hidden-button {
+    display: none;
 }

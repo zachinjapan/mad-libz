@@ -24,7 +24,9 @@ function script1() {
     var verb3 = prompt("type a verb");
     var adj4 = prompt("type an adjective");
 
-    // script
+
+    // hides button column
+    document.querySelector("div.column-1").style.display = "none";
     // adds border class
     document.querySelector("h2").classList.add("border");
     // writes html
@@ -47,8 +49,9 @@ function script2() {
     var noun4 = prompt("type a noun");
 
 
-
-
+    // hides button column
+    document.querySelector("div.column-2").style.display = "none";
+    // add border
     document.querySelector("h2").classList.add("border");
     // writes html
     document.querySelector("h2").innerHTML = "Be kind to your " + noun1 + "-footed " + noun2 + ".  <br> For a " + noun2 + " may be somebody's " + noun3 +
@@ -67,7 +70,10 @@ function script3() {
     var adj1 = prompt("type an adjective");
     var noun4 = prompt("type a noun");
     var color1 = prompt("type a color");
-    verb1 = prompt("type a verb")
+    verb1 = prompt("type a verb");
+
+    // hides button column
+    document.querySelector("div.column-3").style.display = "none";
 
     document.querySelector("h2").classList.add("border");
 
