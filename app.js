@@ -54,8 +54,8 @@ function script2() {
     // add border
     document.querySelector("h2").classList.add("border");
     // writes html
-    document.querySelector("h2").innerHTML = "Be kind to your " + noun1 + "-footed " + noun2 + ".  <br> For a " + noun2 + " may be somebody's " + noun3 +
-        ". <br> Be kind to your " + noun2 + " in " + place1 + ". Where the weather is always " + adj1 + ".  <br> You may think that this is the " + noun4 + "... Well it is."
+    document.querySelector("h2").innerHTML = "Be kind to your " + noun1 + "-footed " + noun2 + ".  <br><br> For a " + noun2 + " may be somebody's " + noun3 +
+        ". <br><br> Be kind to your " + noun2 + " in " + place1 + ". Where the weather is always " + adj1 + ".  <br><br> You may think that this is the " + noun4 + "... Well it is."
 };
 
 // script 3
@@ -77,8 +77,8 @@ function script3() {
 
     document.querySelector("h2").classList.add("border");
 
-    document.querySelector("h2").innerHTML = "hello. I am a " + noun1 + " . <br> and my best friend is a " + noun2 + ". " +
-        "I want to be " + adj1 + " like " + noun2 + "  .  <br> We often " + verb1 + " together at " + place1 + "!! " + "Do you know where " + place1 + " is?  Well, it's right next to the " + color1 +
-        " " + noun3 + ".  I actually grew up right by  " + noun3 + ". <br> I have to go but lets " + verb1 + " sometime.";
+    document.querySelector("h2").innerHTML = "hello. I am a " + noun1 + " . <br><br> and my best friend is a " + noun2 + ". " +
+        "I want to be " + adj1 + " like " + noun2 + "  .  <br> <br> We often " + verb1 + " together at " + place1 + "!! " + "Do you know where " + place1 + " is?  Well, it's right next to the " + color1 +
+        " " + noun3 + ".  I actually grew up right by  " + noun3 + ". <br><br> I have to go but lets " + verb1 + " sometime.";
 
 };
