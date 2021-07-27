@@ -20,19 +20,19 @@ h3 {
 
 .button-row {
     height: 200px;
-    width: 100%;
-    margin-bottom: 5%;
+    width: 100vw;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     background-color: black;
-    align-items: center;
+    flex-wrap: wrap;
 }
 
 .button-column {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
 button {
@@ -48,7 +48,7 @@ button:hover {
     height: 100px;
     width: 100px;
     text-align: center;
-    background-color: green;
+    background-color: turquoise;
     color: white;
 }
 
@@ -60,7 +60,7 @@ button:hover {
 }
 
 .border {
-    border: 3px solid green;
+    border: 3px solid turquoise;
     padding: 10px;
 }
 
